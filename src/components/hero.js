@@ -62,6 +62,7 @@ const Hero = () => (
               boxShadow: generate3dShadow(5, theme.colors.white),
               borderRadius: 0,
               fontWeight: theme.fontWeights.thin,
+              outline: 0,
             })}
           >
             JOIN THE COMMUNITY
