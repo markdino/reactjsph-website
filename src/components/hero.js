@@ -1,7 +1,7 @@
 import React from "react"
 import { Box, Text, Button } from "rebass"
 import { css } from "@emotion/core"
-import { heroImg } from "../images"
+import { heroImg, brandmark } from "../images"
 import Container from "./container"
 
 const heroStyle = css`
@@ -35,6 +35,7 @@ const Hero = () => (
         height: "inherit",
         lineHeight: 0.95,
         opacity: 0.85,
+        "-webkit-clip-path": `url("${brandmark}")`,
       })}
     >
       <Container>
